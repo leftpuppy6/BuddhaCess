@@ -69,7 +69,7 @@ export function App() {
             ))}
          
             <input type='text' value={title} onChange={onChange}></input>
-            <button onClick={() => onClick()}>Smoke weed</button>
+            <button onClick={onClick}>Smoke weed</button>
         </div>
   );
 }
